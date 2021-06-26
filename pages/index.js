@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "../components/Layout/Layout";
 import * as Styles from "../styles/Home.module.scss";
 import Image from "next/image";
-import heroImg from "../public/assets/images/homeHero.jpg";
 function index() {
   return (
     <>
@@ -22,8 +21,7 @@ function index() {
             className={Styles.hero__image}
             width={500}
             height={300}
-            placeholder="blur"
-            src={heroImg}
+            src="/assets/images/homeHero.jpg"
             alt="beautiful river with a man riding boat surrounding with coconut trees "
           />
         </div>

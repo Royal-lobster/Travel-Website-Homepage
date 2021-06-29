@@ -43,7 +43,7 @@ function ExperienceCard({
       <style jsx global>
         {`
           .experienceCard {
-            max-width: 250px;
+            width: 250px;
             border: 1px solid #dbdbdb;
             background-color: transparent;
             box-shadow: none;
@@ -69,6 +69,11 @@ function ExperienceCard({
               font-size: 14px;
               margin-bottom: 20px;
               color: var(--theme-500);
+            }
+          }
+          @media only screen and (max-width: 380px) {
+            .experienceCard {
+              width: 100%;
             }
           }
         `}

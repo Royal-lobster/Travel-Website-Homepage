@@ -72,8 +72,14 @@ function DiscoverWidget() {
           &__locationDropdown,
           &__calender input {
             height: 35px;
-            border: none;
             min-width: 150px;
+            border: 1px solid #eaf1ff;
+            ::placeholder {
+              color: #424242;
+            }
+            .p-placeholder {
+              color: #a7a7a7 !important;
+            }
           }
         }
 

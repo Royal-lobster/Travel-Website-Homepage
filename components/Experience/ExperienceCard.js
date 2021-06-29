@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "primereact/card";
 import Image from "next/image";
+import Link from "next/link";
 function ExperienceCard({
   image,
   title,
@@ -13,44 +14,62 @@ function ExperienceCard({
   return (
     <>
       {console.log(tag)}
-      <Card
-        className="experienceCard"
-        header={
-          <Image
-            src={image}
-            width={350}
-            height={250}
-            alt={imageAlt}
-            objectFit="cover"
-          />
-        }
-      >
-        <div
-          className="experienceCard__tag"
-          style={{
-            color: tag == "inspiration" ? "var(--secondary)" : "var(--primary)",
-          }}
-        >
-          {tag}
-        </div>
-        <h2 className="experienceCard__title">{title}</h2>
-        <p className="experienceCard__credits">
-          By {author} on {date}
-        </p>
-        <p>{description}</p>
-      </Card>
-
+      <Link href="#">
+        <a className="experienceCard__wrapper">
+          <Card
+            className="experienceCard"
+            header={
+              <Image
+                src={image}
+                width={350}
+                height={250}
+                alt={imageAlt}
+                objectFit="cover"
+              />
+            }
+          >
+            <div
+              className="experienceCard__tag"
+              style={{
+                color:
+                  tag == "inspiration" ? "var(--secondary)" : "var(--primary)",
+              }}
+            >
+              {tag}
+            </div>
+            <h2 className="experienceCard__title">{title}</h2>
+            <p className="experienceCard__credits">
+              By {author} on {date}
+            </p>
+            <p>{description}</p>
+          </Card>
+        </a>
+      </Link>
       <style jsx global>
         {`
-          .experienceCard {
-            width: 250px;
+          .experienceCard__wrapper {
             border: 1px solid #dbdbdb;
+            width: 250px;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease-in-out;
+            :focus {
+              outline: none;
+              transform: scale(108%);
+              cursor: pointer;
+              background-color: #fff;
+            }
+            :hover {
+              transform: scale(108%);
+              cursor: pointer;
+              background-color: #fff;
+            }
+          }
+          .experienceCard {
             background-color: transparent;
             box-shadow: none;
             display: flex;
             flex-direction: column;
-            border-radius: 12px;
-            overflow: hidden;
             margin: 0 auto;
 
             &__tag {

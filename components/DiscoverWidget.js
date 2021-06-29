@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Calendar } from "primereact/calendar";
 import { Dropdown } from "primereact/dropdown";
+import { Button } from "primereact/button";
 function DiscoverWidget() {
   const citySelectItems = [
     { label: "New York", value: "NY" },
@@ -36,7 +37,7 @@ function DiscoverWidget() {
             placeholder="Select date"
           ></Calendar>
         </div>
-        <button className="discoverWidget__discoverBtn">Discover</button>
+        <Button className="discoverWidget__discoverBtn" label="Discover" />
       </div>
       <style jsx global>{`
         .discoverWidget {

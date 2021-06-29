@@ -2,66 +2,83 @@
   "data": [
     {
       "id": "1",
-      "image": "https://source.unsplash.com/551x350",
+      "tag": "inspiration",
+      "image": "https://source.unsplash.com/350x350",
       "imageAlt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "title": "Vivamus feugiat",
-      "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu tortor, interdum eget porttitor a, ornare at massa. Ut dapibus nisl a mi aliquam elementum. Curabitur ligula sapien"
+      "title": "10 Days Itinerary for Thailand",
+      "description": "The Ultimate Backpacking Travel Guide to Thailand",
+      "author": "John Doe",
+      "date": "June 22, 2021"
     },
     {
       "id": "2",
-      "image": "https://source.unsplash.com/552x350",
+      "tag": "New zealand",
+      "image": "https://source.unsplash.com/350x351",
       "imageAlt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "title": "Vivamus feugiat",
-      "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu tortor, interdum eget porttitor a, ornare at massa. Ut dapibus nisl a mi aliquam elementum. Curabitur ligula sapien"
+      "title": "One Month Itinerary for New Zealand",
+      "description": "The Ultimate Backpacking Travel Guide to Thailand",
+      "author": "John Doe",
+      "date": "June 22, 2021"
     },
     {
       "id": "3",
-      "image": "https://source.unsplash.com/553x350",
+      "tag": "Thailand",
+      "image": "https://source.unsplash.com/350x352",
       "imageAlt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "title": "Vivamus feugiat",
-      "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu tortor, interdum eget porttitor a, ornare at massa. Ut dapibus nisl a mi aliquam elementum. Curabitur ligula sapien"
+      "title": "10 Days Itinerary for Thailand",
+      "description": "The Ultimate Backpacking Travel Guide to Thailand",
+      "author": "John Doe",
+      "date": "June 22, 2021"
     },
     {
       "id": "4",
-      "image": "https://source.unsplash.com/554x350",
+      "tag": "inspiration",
+      "image": "https://source.unsplash.com/350x353",
       "imageAlt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "title": "Vivamus feugiat",
-      "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu tortor, interdum eget porttitor a, ornare at massa. Ut dapibus nisl a mi aliquam elementum. Curabitur ligula sapien"
+      "title": "10 Days Itinerary for the Mae Hong Son Loop",
+      "description": "The Ultimate Backpacking Travel Guide to Thailand",
+      "author": "John Doe",
+      "date": "June 22, 2021"
     },
     {
       "id": "5",
-      "image": "https://source.unsplash.com/555x350",
+      "tag": "new zealand",
+      "image": "https://source.unsplash.com/350x354",
       "imageAlt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "title": "Vivamus feugiat",
-      "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu tortor, interdum eget porttitor a, ornare at massa. Ut dapibus nisl a mi aliquam elementum. Curabitur ligula sapien"
+      "title": "10 Best Things to do in Dunedin",
+      "description": "The Ultimate Backpacking and Travel Guide",
+      "author": "John Doe",
+      "date": "June 22, 2021"
     },
     {
       "id": "6",
-      "image": "https://source.unsplash.com/556x350",
+      "tag": "thailand",
+      "image": "https://source.unsplash.com/350x355",
       "imageAlt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "title": "Vivamus feugiat",
-      "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu tortor, interdum eget porttitor a, ornare at massa. Ut dapibus nisl a mi aliquam elementum. Curabitur ligula sapien"
+      "title": "7 Best Things to Do at Doi Inthanon",
+      "description": "A Complete Backpacking and Travel Guide to Thailand's Highest Mountain",
+      "author": "John Doe",
+      "date": "June 22, 2021"
     },
     {
       "id": "7",
+      "tag": "new zealand",
+      "image": "https://source.unsplash.com/350x356",
       "imageAlt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "image": "https://source.unsplash.com/557x350",
-      "title": "Vivamus feugiat",
-      "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu tortor, interdum eget porttitor a, ornare at massa. Ut dapibus nisl a mi aliquam elementum. Curabitur ligula sapien"
+      "title": "8 Best Things to Do in Lake Tekapo & Mt Cook",
+      "description": "The Ultimate Backpacking and Travel Guide",
+      "author": "John Doe",
+      "date": "June 22, 2021"
     },
     {
       "id": "8",
-      "image": "https://source.unsplash.com/558x350",
+      "tag": "inspiration",
+      "image": "https://source.unsplash.com/350x357",
       "imageAlt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "title": "Vivamus feugiat",
-      "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu tortor, interdum eget porttitor a, ornare at massa. Ut dapibus nisl a mi aliquam elementum. Curabitur ligula sapien"
-    },
-    {
-      "id": "9",
-      "image": "https://source.unsplash.com/559x350",
-      "title": "Vivamus feugiat",
-      "imageAlt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu tortor, interdum eget porttitor a, ornare at massa. Ut dapibus nisl a mi aliquam elementum. Curabitur ligula sapien"
+      "title": "10 Best Adventure & Backpacking Blogs to Follow in 2021",
+      "description": "The Ultimate List of Great Travel Blogs",
+      "author": "John Doe",
+      "date": "June 22, 2021"
     }
   ]
 }

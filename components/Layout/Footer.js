@@ -18,7 +18,7 @@ function Footer() {
       <style jsx>{`
         footer {
           background-color: var(--theme-300);
-          margin-top: auto;
+          margin-top: 40px;
         }
         .footer__wrapper {
           display: flex;

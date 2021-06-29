@@ -15,7 +15,8 @@ Twitter: @rich_clark
   --theme-700: #444444;
   --theme-800: #222222;
   --theme-900: #000000;
-  --primary: #2b706a;
+  --primary: #005fee;
+  --secondary: #ff8f00;
   --max-width: 1300px;
 }
 html,
@@ -100,6 +101,7 @@ body {
   line-height: 1;
   min-height: 100vh;
   background-color: var(--theme-200);
+  font-family: "Open Sans", sans-serif;
 }
 
 article,

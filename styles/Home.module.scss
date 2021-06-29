@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   max-width: var(--max-width);
   padding: 10vh 20px;
@@ -15,17 +15,14 @@
     max-width: 600px;
   }
   &__tagline {
-    font-size: 50px;
+    font-weight: 700;
+    font-size: min(72px, 15vw);
   }
   &__tagline span {
-    color: #2b706a;
+    color: var(--primary);
   }
   &__desc {
     line-height: 1.5;
-    font-size: 20px;
-  }
-  &__image {
-    width: #{"min(400px, 100%)"};
-    background-color: #2b706a;
+    font-size: min(20px, 5vw);
   }
 }

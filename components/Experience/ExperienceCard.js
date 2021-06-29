@@ -51,6 +51,7 @@ function ExperienceCard({
             border: 1px solid #dbdbdb;
             width: 250px;
             border-radius: 8px;
+            margin: 0 auto;
             overflow: hidden;
             transition: all 0.3s ease-in-out;
             :focus {
@@ -70,7 +71,6 @@ function ExperienceCard({
             box-shadow: none;
             display: flex;
             flex-direction: column;
-            margin: 0 auto;
 
             &__tag {
               text-transform: uppercase;
@@ -91,7 +91,7 @@ function ExperienceCard({
             }
           }
           @media only screen and (max-width: 380px) {
-            .experienceCard {
+            .experienceCard__wrapper {
               width: 100%;
             }
           }

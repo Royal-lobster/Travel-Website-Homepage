@@ -15,6 +15,7 @@ Twitter: @rich_clark
   --theme-700: #444444;
   --theme-800: #222222;
   --theme-900: #000000;
+  --primary: #2b706a;
   --max-width: 1300px;
 }
 html,
@@ -185,4 +186,18 @@ hr {
 input,
 select {
   vertical-align: middle;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
 }

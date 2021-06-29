@@ -1,6 +1,6 @@
 import React from "react";
 import { Menubar } from "primereact/menubar";
-
+import Image from "next/image";
 function Navbar() {
   const items = [
     {
@@ -42,7 +42,13 @@ function Navbar() {
       <Menubar
         className="navbar"
         start={
-          <img src="/assets/images/logo.png" width={120} alt="freecity logo" />
+          <Image
+            src="/assets/images/logo.png"
+            width={120}
+            height={35}
+            alt="freecity logo"
+            objectFit="cover"
+          />
         }
         model={items}
       />

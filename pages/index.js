@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout/Layout";
 import * as Styles from "../styles/Home.module.scss";
 import Image from "next/image";
+import Experiences from "../components/Experience/Experiences";
 function index() {
   return (
     <>
@@ -25,6 +26,7 @@ function index() {
             alt="beautiful river with a man riding boat surrounding with coconut trees "
           />
         </div>
+        <Experiences />
       </Layout>
     </>
   );
